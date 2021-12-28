@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct GayNYCApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
