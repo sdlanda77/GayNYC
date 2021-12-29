@@ -23,6 +23,12 @@ struct Landmark: Hashable, Codable, Identifiable {
         case lakes = "Lakes"
         case rivers = "Rivers"
         case mountains = "Mountains"
+        
+        case bars = "Bars"
+        case activism = "Sites of Activism and Resistance"
+        case misc = "Miscellaneous"
+        case politics = "Political Sites"
+        
     }
     
     private var imageName: String

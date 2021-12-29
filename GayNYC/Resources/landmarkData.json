@@ -1,13 +1,13 @@
 [
     {
-        "name": "Turtle Rock",
-        "category": "Rivers",
-        "city": "Twentynine Palms",
-        "state": "California",
+        "name": "Stonewall Inn",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
-        "park": "Joshua Tree National Park",
+        "park": "53 Christopher St",
         "coordinates": {
             "longitude": -116.166868,
             "latitude": 34.011286
@@ -16,14 +16,14 @@
         "imageName": "turtlerock"
     },
     {
-        "name": "Silver Salmon Creek",
-        "category": "Lakes",
-        "city": "Port Alsworth",
-        "state": "Alaska",
+        "name": "Caffe Cino",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1002,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
+        "park": "31 Cornelia St",
         "coordinates": {
             "longitude": -152.665167,
             "latitude": 59.980167
@@ -32,14 +32,14 @@
         "imageName": "silversalmoncreek"
     },
     {
-        "name": "Chilkoot Trail",
-        "category": "Mountains",
-        "city": "Skagway",
-        "state": "Alaska",
+        "name": "San Remo",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1003,
         "isFeatured": false,
         "isFavorite": true,
-        "park": "Klondike Gold Rush National Historical Park",
+        "park": "93 MacDougal",
         "coordinates": {
             "longitude": -135.334571,
             "latitude": 59.560551
@@ -48,14 +48,14 @@
         "imageName": "chilkoottrail"
     },
     {
-        "name": "St. Mary Lake",
-        "category": "Lakes",
-        "city": "Browning",
-        "state": "Montana",
+        "name": "The Slide",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1004,
         "isFeatured": true,
         "isFavorite": true,
-        "park": "Glacier National Park",
+        "park": "157 Bleeker St",
         "coordinates": {
             "longitude": -113.536248,
             "latitude": 48.69423
@@ -64,14 +64,14 @@
         "imageName": "stmarylake"
     },
     {
-        "name": "Twin Lake",
-        "category": "Lakes",
-        "city": "Twin Lakes",
-        "state": "Alaska",
+        "name": "Mills House",
+        "category": "Political Sites",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1005,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
+        "park": "xxx (Across from The Slide)",
         "coordinates": {
             "longitude": -153.849883,
             "latitude": 60.641684
@@ -80,14 +80,14 @@
         "imageName": "twinlake"
     },
     {
-        "name": "Lake McDonald",
-        "category": "Mountains",
-        "city": "West Glacier",
-        "state": "Montana",
+        "name": "Ernie's",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1006,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Glacier National Park",
+        "park": "76 W 3rd St",
         "coordinates": {
             "longitude": -113.934831,
             "latitude": 48.56002
@@ -96,14 +96,14 @@
         "imageName": "lakemcdonald"
     },
     {
-        "name": "Charley Rivers",
-        "category": "Rivers",
-        "city": "Eaking",
-        "state": "Alaska",
+        "name": "Eve's Place",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1007,
         "isFeatured": true,
         "isFavorite": false,
-        "park": "Charley Rivers National Preserve",
+        "park": "129 MacDougal",
         "coordinates": {
             "longitude": -143.122586,
             "latitude": 65.350021
@@ -112,14 +112,14 @@
         "imageName": "charleyrivers"
     },
     {
-        "name": "Icy Bay",
-        "category": "Mountains",
-        "city": "Icy Bay",
-        "state": "Alaska",
+        "name": "Judson Memorial Church",
+        "category": "Sites of Activism and Resistance",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1008,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Wrangell-St. Elias National Park and Preserve",
+        "park": "Washington Square Park",
         "coordinates": {
             "longitude": -141.518167,
             "latitude": 60.089917
@@ -128,14 +128,14 @@
         "imageName": "icybay"
     },
     {
-        "name": "Rainbow Lake",
-        "category": "Lakes",
-        "city": "Willow",
-        "state": "Alaska",
+        "name": "Women's Jouse of Detention",
+        "category": "Sites of Activism and Resistance",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1009,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "State Recreation Area",
+        "park": "6th Ave and Greenwich Ave",
         "coordinates": {
             "longitude": -150.086103,
             "latitude": 61.694334
@@ -144,14 +144,14 @@
         "imageName": "rainbowlake"
     },
     {
-        "name": "Hidden Lake",
-        "category": "Lakes",
-        "city": "Newhalem",
-        "state": "Washington",
+        "name": "Julius's",
+        "category": "Bars",
+        "city": "Greenwich Village",
+        "state": "New York City",
         "id": 1010,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "North Cascades National Park",
+        "park": "159 W 10th St",
         "coordinates": {
             "longitude": -121.17799,
             "latitude": 48.495442
