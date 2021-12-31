@@ -2,193 +2,161 @@
     {
         "name": "Stonewall Inn",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
-        "park": "53 Christopher St",
+        "addy": "53 Christopher St",
         "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
+            "longitude": -74.002119,
+            "latitude": 40.734547
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "turtlerock"
+        "description": "From June 28 to July 3, 1969, LGBT patrons of the Stonewall Inn and members of the local community took the unusual action of fighting back during a routine police raid at the bar. The events during that six-day period are seen as a key turning point and a catalyst for explosive growth in a gay rights movement that began in the United States in 1950 with the founding of the Mattachine Society in Los Angeles. In the immediate aftermath, large numbers of groups formed around the country and thousands of people joined the movement. \n\nStonewall became the first LGBT site in the country to be listed on the National Register of Historic Places (1999) and named a National Historic Landmark (2000). It received additional recognition by city landmark designation in 2015, as a State Historic Site in 2016, and the designation as part of the Stonewall National Monument in 2016.",
+        "imageName": "stonewall"
     },
     {
         "name": "Caffe Cino",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1002,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "31 Cornelia St",
+        "addy": "31 Cornelia St",
         "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
+            "longitude": -74.002196,
+            "latitude": 40.731941
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "silversalmoncreek"
+        "description": "The Caffe Cino is widely recognized as the birthplace of Off-Off-Broadway theater and was located on the ground floor of this building from 1958 to 1968. It is also highly significant as a pioneer in the development of gay theater, at a time when it was still illegal to depict homosexuality on stage.",
+        "imageName": "cino"
     },
     {
-        "name": "San Remo",
+        "name": "San Remo Cafe",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1003,
         "isFeatured": false,
         "isFavorite": true,
-        "park": "93 MacDougal",
+        "addy": "93 MacDougal St",
         "coordinates": {
-            "longitude": -135.334571,
-            "latitude": 59.560551
+            "longitude": -74.001254,
+            "latitude": 40.730126
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "chilkoottrail"
+        "description": "The San Remo Café was a Greenwich Village Italian restaurant and bar that became a famous Bohemian hangout in the late 1940s and ’50s. It attracted a mixed Beat and gay clientele that had, among its most prominent patrons, many gay artists, writers, dancers, and actors. \n\nThe San Remo Café was a working-class Greenwich Village Italian restaurant and bar that operated from about 1925 to 1967. It was located on the ground floor of the tenement building at 189 Bleecker Street, corner of MacDougal Street. \n\nThough mob-owned and not especially welcoming, it became a famous Bohemian hangout in the late 1940s and ’50s that attracted a mixed Beat and gay clientele with, among its most prominent patrons, many artists, writers, dancers, and actors. These included such gay and bisexual luminaries as Tennessee Williams, Gore Vidal, James Baldwin, Allen Ginsberg, William S. Burroughs, Jack Kerouac, W.H. Auden, Chester Kallman, Harold Norse, John Cage, Larry Rivers, Frank O’Hara, Montgomery Clift, and Merce Cunningham. One of the San Remo’s most famous legends is Vidal picking up Kerouac here, and taking him to the Chelsea Hotel for sex.",
+        "imageName": "sanremo"
     },
     {
         "name": "The Slide",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1004,
         "isFeatured": true,
         "isFavorite": true,
-        "park": "157 Bleeker St",
+        "addy": "157 Bleeker St",
         "coordinates": {
-            "longitude": -113.536248,
-            "latitude": 48.69423
+            "longitude": -73.999648,
+            "latitude": 40.729830,
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "stmarylake"
+        "description": "In the early 1890s, The Slide on Bleecker Street was known as New York’s “worst dive” for its “fairies,” young men who solicited other men.\n\nIt was closed by the police in 1892.\n\nWhile the Bowery, Lower East Side, and Tenderloin (a section of western Midtown roughly bounded at that time by 23rd and 42nd Streets and Fifth and Seventh Avenues) were the most notorious New York centers for commercialized vice and same-sex liaisons at this time, there were also such spots on Bleecker Street in Greenwich Village. Upper middle-class men, and some women, were attracted to downtown, in part to witness the “depravity” of the lower classes and thus to be scandalized or titillated (or both).\n\nThe Slide was popularly identified by 1890 as New York’s “worst dive” because of its fairies. A “slide,” in prostitutes’ jargon of the time, was “an establishment where male homosexuals dressed as women and solicited men,” according to Chauncey. Contemporary newspapers, purporting to defend the public’s morals, spotlighted the most sensational aspects of this underworld. The Slide was closed by police in 1892 and the proprietor convicted of keeping a “disorderly house.”",
+        "imageName": "slide"
     },
     {
         "name": "Mills House",
         "category": "Political Sites",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1005,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "xxx (Across from The Slide)",
+        "addy": "160 Bleeker St",
         "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
+            "longitude": -74.000036,
+            "latitude": 40.728953
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "twinlake"
+        "description": "Opened in 1897 as Mills House No. 1, which was intended as a wholesome residential hotel for single, working-class men, this building ironically became desirable for gay men because they could live and socialize more easily undetected (the building served as a men’s hotel until the 1970s). \n\nIn the latter half of the 20th century, the Village Gate nightclub and Top of the Gate performance venue played host to a number of LGBT notables.",
+        "imageName": "millshouse"
     },
     {
         "name": "Ernie's",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1006,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "76 W 3rd St",
+        "addy": "76 W 3rd St",
         "coordinates": {
-            "longitude": -113.934831,
-            "latitude": 48.56002
+            "longitude": -73.998491,
+            "latitude": 40.730064
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "lakemcdonald"
+        "description": "Ernie’s was a jazz club that was “mostly heterosexual, but also attracted “working class” lesbians”. You have to remember this was the 1940s, and there were only limited places, even in New York City, that accepted gays or lesbians. Ernie’s was one of them.",
+        "imageName": "ernies"
     },
     {
-        "name": "Eve's Place",
+        "name": "Eve's Hangout",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1007,
         "isFeatured": true,
         "isFavorite": false,
-        "park": "129 MacDougal",
+        "addy": "129 MacDougal St",
         "coordinates": {
-            "longitude": -143.122586,
-            "latitude": 65.350021
+            "longitude": -73.999889,
+            "latitude": 40.731391
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "charleyrivers"
+        "description": "Eve Adams, the name adopted by a Polish-Jewish lesbian émigré, operated a popular gay and lesbian tearoom near Washington Square in Greenwich Village from 1925 to 1926. It closed when she was convicted of obscenity and disorderly conduct, which resulted in her deportation. She was eventually murdered at Auschwitz.",
+        "imageName": "eves"
     },
     {
         "name": "Judson Memorial Church",
         "category": "Sites of Activism and Resistance",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1008,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Washington Square Park",
+        "addy": "RE55 Washington Square Park South",
         "coordinates": {
-            "longitude": -141.518167,
-            "latitude": 60.089917
+            "longitude": -73.998340,
+            "latitude": 40.730804
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "icybay"
+        "description": "Judson Memorial Church on Washington Square in the 1960s and ’70s was home to avant-garde arts groups, and a site for lesbian and gay political gatherings. With the emergence of AIDS in the 1980s, Judson became one of New York’s first compassionate churches.",
+        "imageName": "judson"
     },
     {
-        "name": "Women's Jouse of Detention",
+        "name": "Women's House of Detention",
         "category": "Sites of Activism and Resistance",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1009,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "6th Ave and Greenwich Ave",
+        "addy": "6th Ave and Greenwich Ave",
         "coordinates": {
-            "longitude": -150.086103,
-            "latitude": 61.694334
+            "longitude": -73.999587,
+            "latitude": 40.734512
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "rainbowlake"
+        "description": "To walk by the verdant, lush garden behind the graceful Jefferson Market Library today, one can scarcely imagine that it was once the site of an eleven-story prison, the notorious Women’s House of Detention. \n\nThe latest addition to the GVSHP Civil Rights and Social Justice map, this former imposing edifice served as a prison from 1932-1971 (demolished in 1974) and was designed by the architecture firm of Sloan and Robertson, a firm known for its Art Deco towers.",
+        "imageName": "houseofdetention"
     },
     {
         "name": "Julius's",
         "category": "Bars",
-        "city": "Greenwich Village",
+        "neighborhood": "Greenwich Village",
         "state": "New York City",
         "id": 1010,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "159 W 10th St",
+        "addy": "159 W 10th St",
         "coordinates": {
-            "longitude": -121.17799,
-            "latitude": 48.495442
+            "longitude": -74.001653,
+            "latitude": 40.735614
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "hiddenlake"
-    },
-    {
-        "name": "Chincoteague",
-        "category": "Rivers",
-        "city": "Chincoteague",
-        "state": "Virginia",
-        "id": 1011,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Chincoteague National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -75.383212,
-            "latitude": 37.91531
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "chincoteague"
-    },
-    {
-        "name": "Lake Umbagog",
-        "category": "Lakes",
-        "city": "Errol",
-        "state": "New Hampshire",
-        "id": 1012,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Umbagog National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "umbagog"
+        "description": "On April 21, 1966, a “Sip-In” was organized by members of the Mattachine Society, one of the country’s earliest gay rights organizations, to challenge the State Liquor Authority’s discriminatory policy of revoking the licenses of bars that served known or suspected gay men and lesbians. The publicized event – at which they were refused service after intentionally revealing they were “homosexuals” – was one of the earliest pre-Stonewall public actions for LGBT rights as well as a big step forward in the eventual development of legitimate LGBT bars in New York City.",
+        "imageName": "julius"
     }
 ]

@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct CategoryHome: View {
+    let coverImage = UIImage(named: "cover")
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         NavigationView {
             List {
-                modelData.features[0].image
+                Image("cover")
                     .resizable()
                     .scaledToFill()
-                    .frame(height: 200)
+                    .frame(height: 240)
+                    .offset(y: 10)
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
@@ -27,7 +29,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
                 
             }
-                .navigationTitle("Featured")
+                .navigationTitle("Browse by categories")
             
         }
     }

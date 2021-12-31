@@ -12,15 +12,20 @@ struct ContentView: View {
     
     //tabs that cna be displayed
     enum Tab {
+        case home
         case featured
         case list
     }
     
     var body: some View {
         TabView(selection: $selection) {
+            TourMenu()
+                .tabItem{
+                    Label("Tour", systemImage: "figure.walk.circle.fill")
+                }
             CategoryHome()
                 .tabItem{
-                    Label("Featured", systemImage: "star")
+                    Label("Categories", systemImage: "book.circle.fill")
                 }
                 .tag(Tab.featured)
             LandmarkList()

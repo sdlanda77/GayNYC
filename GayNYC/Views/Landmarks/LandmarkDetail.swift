@@ -24,6 +24,7 @@ struct LandmarkDetail: View {
             CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
+                
             
             VStack(alignment: .leading) {
                 HStack {
@@ -32,10 +33,10 @@ struct LandmarkDetail: View {
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
                 HStack {
-                    Text(landmark.park)
+                    Text(landmark.addy)
                         //.font(.subheadline)
                     Spacer()
-                    Text(landmark.state)
+                    Text(landmark.neighborhood)
                         //.font(.subheadline)
                 }
                 .font(.subheadline)
@@ -57,7 +58,10 @@ struct LandmarkDetail: View {
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
-        LandmarkDetail(landmark: ModelData().landmarks[0])
+        LandmarkDetail(landmark: modelData.landmarks[0])
+            .environmentObject(modelData)
     }
 }

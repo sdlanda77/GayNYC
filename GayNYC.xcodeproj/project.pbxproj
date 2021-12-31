@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4473E7277F7EDE00AB6730 /* TourMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4473E6277F7EDE00AB6730 /* TourMenu.swift */; };
 		7D541078277A04730064512F /* GayNYCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D541077277A04730064512F /* GayNYCApp.swift */; };
 		7D54107A277A04730064512F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D541079277A04730064512F /* ContentView.swift */; };
 		7D54107C277A04740064512F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D54107B277A04740064512F /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D4473E6277F7EDE00AB6730 /* TourMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMenu.swift; sourceTree = "<group>"; };
 		7D541074277A04730064512F /* GayNYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GayNYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D541077277A04730064512F /* GayNYCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GayNYCApp.swift; sourceTree = "<group>"; };
 		7D541079277A04730064512F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				7D541079277A04730064512F /* ContentView.swift */,
+				7D4473E6277F7EDE00AB6730 /* TourMenu.swift */,
 				7D5410BB277B70310064512F /* Categories */,
 				7D5410B9277B64AA0064512F /* Helpers */,
 				7D5410BA277B64B30064512F /* Landmarks */,
@@ -350,6 +353,7 @@
 				7D5410B2277A26BF0064512F /* LandmarkList.swift in Sources */,
 				7D5410B6277A291B0064512F /* LandmarkDetail.swift in Sources */,
 				7D5410A2277A083E0064512F /* CircleImage.swift in Sources */,
+				7D4473E7277F7EDE00AB6730 /* TourMenu.swift in Sources */,
 				7D5410C1277B741E0064512F /* CategoryItem.swift in Sources */,
 				7D5410A8277A1D8A0064512F /* Landmark.swift in Sources */,
 				7D5410B0277A20FC0064512F /* LandmarkRow.swift in Sources */,
