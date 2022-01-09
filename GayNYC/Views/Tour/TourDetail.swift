@@ -1,20 +1,20 @@
 //
-//  TourMenu.swift
+//  TourDetail.swift
 //  GayNYC
 //
-//  Created by Sam Landa on 12/31/21.
+//  Created by Sam Landa on 1/4/22.
 //
 
 import SwiftUI
 
-struct TourMenu: View {
+struct TourDetail: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct TourMenu_Previews: PreviewProvider {
+struct TourDetail_Previews: PreviewProvider {
     static var previews: some View {
-        TourMenu()
+        TourDetail()
     }
 }

@@ -30,7 +30,6 @@ struct CategoryHome: View {
                 
             }
                 .navigationTitle("Browse by categories")
-            
         }
     }
 }
