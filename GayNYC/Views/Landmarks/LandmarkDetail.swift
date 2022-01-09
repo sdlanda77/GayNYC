@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
     
@@ -17,9 +18,10 @@ struct LandmarkDetail: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: landmark.locationCoordinates)
+            MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude))
                 //.ignoresSafeArea(edges: .top)
                 .frame(height: 300)
+                .offset(y: -30)
             
             CircleImage(image: landmark.image)
                 .offset(y: -130)

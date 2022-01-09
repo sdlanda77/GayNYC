@@ -21,7 +21,7 @@ struct TourMenu: View {
                         //Spacer()
                         VStack{
                             NavigationLink {
-                                TourDetail()
+                                RouteView()
                             } label: {
                                 Text("Start Tour")
                                     .font(.largeTitle)

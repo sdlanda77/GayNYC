@@ -19,20 +19,29 @@ struct Place: Identifiable {
     }
 }
 
+//array of places to annotate
+let places = [
+    Place(name: "MyPlace", latitude: 34.011_286, longitude: -116.166_868)
+]
+
 struct MapView: View { 
     
     var coordinate: CLLocationCoordinate2D
+    let place: Place
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868),
         span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
     )
-    //array of places to annotate
-    let places = [
-        Place(name: "MyPlace", latitude: 34.011_286, longitude: -116.166_868)
-    ]
+    
     
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region, annotationItems: [place])
+        { place in
+                    MapMarker(coordinate: CLLocationCoordinate2D(
+                        latitude: place.latitude,
+                        longitude: place.longitude),
+                           tint: Color.red)
+                }
             .onAppear {
                 setRegion(coordinate)
                 
@@ -53,6 +62,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+        MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868), place: places[0])
     }
 }
