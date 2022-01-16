@@ -8,61 +8,61 @@
 import SwiftUI
 
 struct TourMenu: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         NavigationView {
-                List {
-                            Image("tourcover")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(height: 240)
-                                .clipped()
-                                .listRowInsets(EdgeInsets())
-                        
-                        //Spacer()
-                        VStack{
-                            NavigationLink {
-                                RouteView()
-                            } label: {
-                                Text("Start Tour")
-                                    .font(.largeTitle)
-                                    .fontWeight(.bold)
-                                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                                    .frame(maxWidth: .infinity, alignment: .center)
-                            }
-                            
-                            
-                            NavigationLink {
-                                AboutAuthor()
-                            } label: {
-                                Text("About the author")
-                                    .font(.title)
-                                    .fontWeight(.semibold)
-                                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                                    .frame(maxWidth: .infinity, alignment: .center)
-                            }
-                            
-                            NavigationLink {
-                                AboutAuthor()
-                            } label: {
-                                Text("About the app")
-                                    .font(.title)
-                                    .fontWeight(.semibold)
-                                    .padding(.all)
-                                    .frame(maxWidth: .infinity, alignment: .center)
-                            }
-                            
-                        }
-                    
+            List {
+                Image("tourcover")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 240)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
 
+                NavigationLink {
+                    TourNav(landmark: modelData.landmarks[0])
+                } label: {
+                    Text("Start Tour")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(.all)
+                        .frame(maxWidth: .infinity, alignment: .center)
                 }
-                    .navigationTitle("Gay New York")
-                //.foregroundColor(.black)
+                
+                
+                NavigationLink {
+                    AboutAuthor()
+                } label: {
+                    Text("About the author")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .padding(.all)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                }
+                
+                NavigationLink {
+                    AboutAuthor()
+                } label: {
+                    Text("About the app")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .padding(.all)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                }
+                
+            }
+            .navigationTitle("Gay New York")
+            //.foregroundColor(.black)
         }
     }
 }
 
 struct TourMenu_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
         TourMenu()
+            .environmentObject(modelData)
     }
 }

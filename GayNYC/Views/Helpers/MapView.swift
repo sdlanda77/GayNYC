@@ -21,15 +21,16 @@ struct Place: Identifiable {
 
 //array of places to annotate
 let places = [
-    Place(name: "MyPlace", latitude: 34.011_286, longitude: -116.166_868)
+    Place(name: "MyPlace", latitude: 40.734547, longitude: -74.002119)
 ]
 
 struct MapView: View { 
     
     var coordinate: CLLocationCoordinate2D
     let place: Place
+    
     @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868),
+        center: CLLocationCoordinate2D(latitude: 40.734547, longitude: -74.002119),
         span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
     )
     
