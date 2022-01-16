@@ -44,7 +44,7 @@ struct TourNav: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.blue)
                         .padding(.all)
-                        .border(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+                        //.border(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
                         //.frame(maxWidth: .infinity, alignment: .center)
                         //.offset(y: -15)
                 }

@@ -35,7 +35,7 @@ struct TourDetail: View {
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                     Spacer()
                     NavigationLink {
-                        TourNav(landmark: landmark) //change to TourDetail when Chauncey adds naration
+                        TourNav(landmark: modelData.landmarks[(landmarkIndex + 1)%1000]) //change to TourDetail when Chauncey adds naration
                     } label: {
                         Text("Next site")
                             .font(.title3)
