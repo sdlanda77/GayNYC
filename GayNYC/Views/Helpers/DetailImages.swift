@@ -20,7 +20,7 @@ struct DetailImages: View {
                     .resizable()
                 .scaledToFit()
             
-                Text("Caption: Placeholder image 1")
+                Text("What it looks like today")
                     .font(.caption)
                 detailImage2
                     .resizable()

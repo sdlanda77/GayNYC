@@ -18,8 +18,10 @@ struct LandmarkRow: View {
             Text(landmark.name)
             Spacer()
             if landmark.isFavorite {
-                Image(systemName: "star.fill")
-                    .foregroundColor(.yellow)
+                Image(systemName: "checkmark.circle.fill")
+                    .foregroundColor(.gray)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    
             }
         }
     }

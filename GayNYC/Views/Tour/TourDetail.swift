@@ -16,13 +16,13 @@ struct TourDetail: View {
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }
-    
     var body: some View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude), mapType: .satellite)
                 //.ignoresSafeArea(edges: .top)
                 .frame(height: 300)
                 .offset(y: -30)
+                
             
             CircleImage(image: landmark.image)
                 .offset(y: -130)

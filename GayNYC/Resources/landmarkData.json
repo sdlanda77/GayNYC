@@ -9,8 +9,10 @@
         "isFavorite": true,
         "addy": "53 Christopher St",
         "coordinates": {
-            "longitude": -74.002119,
-            "latitude": 40.734547
+            "latitudeCUtest": 40.806555,
+            "longitudeCUtest": -73.963125,
+            "longitude": -74.00216,
+            "latitude": 40.73380
         },
         "description": "From June 28 to July 3, 1969, LGBT patrons of the Stonewall Inn and members of the local community took the unusual action of fighting back during a routine police raid at the bar. The events during that six-day period are seen as a key turning point and a catalyst for explosive growth in a gay rights movement that began in the United States in 1950 with the founding of the Mattachine Society in Los Angeles. In the immediate aftermath, large numbers of groups formed around the country and thousands of people joined the movement. \n\nStonewall became the first LGBT site in the country to be listed on the National Register of Historic Places (1999) and named a National Historic Landmark (2000). It received additional recognition by city landmark designation in 2015, as a State Historic Site in 2016, and the designation as part of the Stonewall National Monument in 2016.",
         "imageName": "stonewall"
@@ -22,7 +24,7 @@
         "state": "New York City",
         "id": 1002,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "addy": "31 Cornelia St",
         "coordinates": {
             "longitude": -74.002196,

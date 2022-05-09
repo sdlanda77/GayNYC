@@ -22,7 +22,7 @@ struct LandmarkList: View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites Only")
+                    Text("Already visited only")
                 }
                 ForEach(filteredLandmarks) { landmark in
                     //LandmarkRow(landmark: landmark)

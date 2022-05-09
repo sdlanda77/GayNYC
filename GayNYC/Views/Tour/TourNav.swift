@@ -25,7 +25,7 @@ struct TourNav: View {
         )
     
     
-    var landmark: Landmark
+    public var landmark: Landmark
     /*
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
@@ -42,7 +42,7 @@ struct TourNav: View {
                     player?.stop()
                 }
                 
-
+            
             VStack {
                 Text("Proceed to " + landmark.name)
                     .font(.title)
@@ -66,11 +66,15 @@ struct TourNav: View {
                 Button("Replay audio"){
                     playSound()
                 }
-                .padding(.top, -10.0)
+                .padding(.bottom, 10.0)
             }
         }
         
     }
+    
+    
+    
+    
     func playSound(){
         print("play sound")
         var audioPlayer = player
@@ -105,7 +109,12 @@ struct TourNav: View {
     }
         
     
-    
+    func getDestLocation(for mapView: MKMapView) -> CLLocation {
+            let latitude = landmark.locationCoordinates.latitude
+            let longitude = landmark.locationCoordinates.longitude
+            
+            return CLLocation(latitude: latitude, longitude: longitude)
+        }
     
 }
 
@@ -117,3 +126,80 @@ struct TourNav_Previews: PreviewProvider {
             .environmentObject(modelData)
     }
 }
+
+final class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate{
+    var locationManager: CLLocationManager?
+    //@StateObject private var modelData = ModelData()
+    
+    func checkIfLocationServicesIsEnabled(){
+        if CLLocationManager.locationServicesEnabled() {
+            //create location manager
+            locationManager = CLLocationManager()
+            locationManager!.delegate = self
+            // can set to walking with locationManager?.activityType etc
+            locationManager?.desiredAccuracy = kCLLocationAccuracyBestForNavigation
+            
+        }else{
+            print("Not able to get location")
+        }
+    }
+    
+//directions
+ /*
+    func getDirections() {
+        guard let location = locationManager?.location?.coordinate else {
+            print("do not have location access")
+            return
+        }
+        let request = createDirectionsRequest(from: location)
+        let directions = MKDirections(request: request)
+        
+        //i think this is depricated
+        //directions.calculate{ [unowned self] (response, error) in
+        directions.calculate{ /*[unowned self]*/ (response,error) in
+            guard let response = response else { return }
+            
+            for route in response.routes {
+                //self.mapView.addOverlay(route.polyline)
+                //self.mapView?.setVisibleMapRect(route.polyline.boundingMapRect, animated: true)
+            }
+        }
+    }
+    func createDirectionsRequest(from coordinate: CLLocationCoordinate2D) -> MKDirections.Request {
+        let destinationCoordinate       = CLLocationCoordinate2D(
+            latitude: CLLocationDegrees(Double(modelData.landmarks[0].locationCoordinates.latitude)), longitude: CLLocationDegrees(Double(modelData.landmarks[0].locationCoordinates.longitude)))//may need a function to get the location from landmark
+            let startingLocation            = MKPlacemark(coordinate: coordinate)//starts at user location
+            let destination                 = MKPlacemark(coordinate: destinationCoordinate)
+            
+            let request                     = MKDirections.Request()
+            request.source                  = MKMapItem(placemark: startingLocation)
+            request.destination             = MKMapItem(placemark: destination)
+            request.transportType           = .walking
+            request.requestsAlternateRoutes = false //don't think this is needed
+            
+            return request
+        }
+    */
+    /*private */func checkLocationAuthorization(){
+        guard let locationManager = locationManager else {
+            return
+        }
+        switch locationManager.authorizationStatus {
+            
+        case .notDetermined:
+            locationManager.requestWhenInUseAuthorization()
+        case .restricted:
+            print("location is restricted.")
+        case .denied:
+            print("location is denied. change in settings.")
+        case .authorizedAlways, .authorizedWhenInUse:
+            break //placeholder
+        @unknown default:
+            break
+        }
+    }
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        checkLocationAuthorization()
+    }
+}
+
