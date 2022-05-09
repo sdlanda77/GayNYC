@@ -18,7 +18,7 @@ struct LandmarkDetail: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude))
+            MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude), mapType: .satellite)
                 //.ignoresSafeArea(edges: .top)
                 .frame(height: 300)
                 .offset(y: -30)
@@ -49,6 +49,34 @@ struct LandmarkDetail: View {
                 Text("About \(landmark.name)")
                     .font(.title2)
                 Text("\n" + landmark.description)
+                
+                Divider()
+                
+                DetailImages(detailImage1: landmark.detailImage1, detailImage2: landmark.detailImage2, detailImage3: landmark.detailImage3, detailImage4: landmark.detailImage4)
+                /*
+                VStack {
+                    landmark.detailImage1
+                        .resizable()
+                    .scaledToFit()
+                
+                    Text("Caption")
+                        .font(.caption)
+                    landmark.detailImage2
+                        .resizable()
+                        .scaledToFit()
+                    Text("Caption")
+                        .font(.caption)
+                    landmark.detailImage3
+                        .resizable()
+                        .scaledToFit()
+                    Text("Caption")
+                        .font(.caption)
+                    landmark.detailImage4
+                        .resizable()
+                        .scaledToFit()
+                    Text("Caption")
+                        .font(.caption)
+                }*/
             }
             .padding()
             //Spacer()

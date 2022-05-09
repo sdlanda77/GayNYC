@@ -12,6 +12,8 @@
 		7D348D312787B02D0063B774 /* TourNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D348D302787B02D0063B774 /* TourNav.swift */; };
 		7D348D35278B635C0063B774 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D348D34278B635C0063B774 /* MapKit.framework */; };
 		7D4473E7277F7EDE00AB6730 /* TourMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4473E6277F7EDE00AB6730 /* TourMenu.swift */; };
+		7D537A4D28285BA300259409 /* DetailImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D537A4C28285BA300259409 /* DetailImages.swift */; };
+		7D537A4F28286EAA00259409 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A4E28286EAA00259409 /* audio.mp3 */; };
 		7D541078277A04730064512F /* GayNYCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D541077277A04730064512F /* GayNYCApp.swift */; };
 		7D54107A277A04730064512F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D541079277A04730064512F /* ContentView.swift */; };
 		7D54107C277A04740064512F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D54107B277A04740064512F /* Assets.xcassets */; };
@@ -57,6 +59,8 @@
 		7D348D32278B635C0063B774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7D348D34278B635C0063B774 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7D4473E6277F7EDE00AB6730 /* TourMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMenu.swift; sourceTree = "<group>"; };
+		7D537A4C28285BA300259409 /* DetailImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImages.swift; sourceTree = "<group>"; };
+		7D537A4E28286EAA00259409 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		7D541074277A04730064512F /* GayNYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GayNYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D541077277A04730064512F /* GayNYCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GayNYCApp.swift; sourceTree = "<group>"; };
 		7D541079277A04730064512F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 				7D5410AE277A20B20064512F /* Model */,
 				7D5410AD277A20A70064512F /* Resources */,
 				7D54107B277A04740064512F /* Assets.xcassets */,
+				7D537A4E28286EAA00259409 /* audio.mp3 */,
 				7D54107D277A04740064512F /* Preview Content */,
 			);
 			path = GayNYC;
@@ -221,6 +226,7 @@
 				7D5410A1277A083E0064512F /* CircleImage.swift */,
 				7D5410A3277A0DD50064512F /* MapView.swift */,
 				7D5410B7277B63DE0064512F /* FavoriteButton.swift */,
+				7D537A4C28285BA300259409 /* DetailImages.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -350,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D54107F277A04740064512F /* Preview Assets.xcassets in Resources */,
+				7D537A4F28286EAA00259409 /* audio.mp3 in Resources */,
 				7D54107C277A04740064512F /* Assets.xcassets in Resources */,
 				7D5410A6277A1D5D0064512F /* landmarkData.json in Resources */,
 			);
@@ -388,6 +395,7 @@
 				7D4473E7277F7EDE00AB6730 /* TourMenu.swift in Sources */,
 				7D348D2F2787AEC70063B774 /* AboutAuthor.swift in Sources */,
 				7D348D312787B02D0063B774 /* TourNav.swift in Sources */,
+				7D537A4D28285BA300259409 /* DetailImages.swift in Sources */,
 				7D5410C1277B741E0064512F /* CategoryItem.swift in Sources */,
 				7D5410A8277A1D8A0064512F /* Landmark.swift in Sources */,
 				7D5410B0277A20FC0064512F /* LandmarkRow.swift in Sources */,

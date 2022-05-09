@@ -9,7 +9,8 @@ import SwiftUI
 
 struct TourDetail: View {
     
-    @EnvironmentObject var modelData: ModelData
+    //@EnvironmentObject var modelData: ModelData
+    @State private var modelData = ModelData()
     var landmark: Landmark
     
     var landmarkIndex: Int {
@@ -18,7 +19,7 @@ struct TourDetail: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude))
+            MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude), mapType: .satellite)
                 //.ignoresSafeArea(edges: .top)
                 .frame(height: 300)
                 .offset(y: -30)
@@ -35,13 +36,28 @@ struct TourDetail: View {
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                     Spacer()
                     NavigationLink {
-                        TourNav(landmark: modelData.landmarks[(landmarkIndex + 1)%1000]) //change to TourDetail when Chauncey adds naration
+                        if(landmarkIndex%1000 != 9){
+                             TourNav(landmark: modelData.landmarks[(landmarkIndex + 1)%1000]) //change to TourDetail when Chauncey adds naration
+                        }else{
+                            TourMenu()
+                        }
+                        
                     } label: {
-                        Text("Next site")
-                            .font(.title3)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.blue)
-                            .padding(.all)
+                        if(landmarkIndex%1000 != 9){
+                            Text("Next site")
+                                .font(.title3)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.blue)
+                                .padding(.all)
+                        }else{
+                            Text("End tour")
+                                .font(.title3)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.blue)
+                                .padding(.all)
+                            
+                        }
+                        
                     }
                     //ADD: if it's the last site, "finish tour button"
                 }
@@ -62,6 +78,9 @@ struct TourDetail: View {
                 Text("\n" + landmark.description)
             }
             .padding()
+            Divider()
+            
+            DetailImages(detailImage1: landmark.detailImage1, detailImage2: landmark.detailImage2, detailImage3: landmark.detailImage3, detailImage4: landmark.detailImage4)
             //Spacer()
         }
         .navigationTitle(landmark.name)

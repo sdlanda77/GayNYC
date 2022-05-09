@@ -21,9 +21,9 @@ struct Landmark: Hashable, Codable, Identifiable {
     
     var category: Category //TODO update this for our sites
     enum Category: String, CaseIterable, Codable {
-        case lakes = "Lakes"
-        case rivers = "Rivers"
-        case mountains = "Mountains"
+        //case lakes = "Lakes"
+        //case rivers = "Rivers"
+        //case mountains = "Mountains"
         
         case bars = "Bars"
         case activism = "Sites of Activism and Resistance"
@@ -35,6 +35,19 @@ struct Landmark: Hashable, Codable, Identifiable {
     private var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    //added, cahnge to imageName + 1 when all photos are there
+    var detailImage1: Image {
+        Image("stonewall2")
+    }
+    var detailImage2: Image {
+        Image("stonewall1")
+    }
+    var detailImage3: Image {
+        Image("stonewall3")
+    }
+    var detailImage4: Image {
+        Image("stonewall4")
     }
     
     private var coordinates: Coordinates

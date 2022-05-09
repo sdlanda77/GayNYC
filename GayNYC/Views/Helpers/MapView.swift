@@ -28,6 +28,7 @@ struct MapView: View {
     
     var coordinate: CLLocationCoordinate2D
     let place: Place
+    var mapType: MKMapType 
     
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 40.734547, longitude: -74.002119),
@@ -45,9 +46,8 @@ struct MapView: View {
                 }
             .onAppear {
                 setRegion(coordinate)
-                
-                
-                
+                //print("map region set")
+           
             }
     }
     
@@ -56,13 +56,16 @@ struct MapView: View {
             center: coordinate,
             span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
         )
+        
     }
-    
+    func updateUIView(_ uiView: MKMapView) {
+        uiView.mapType = .satellite
+    }
     
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868), place: places[0])
+        MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868), place: places[0], mapType: .satellite)
     }
 }

@@ -9,8 +9,8 @@ import SwiftUI
 
 struct CategoryHome: View {
     let coverImage = UIImage(named: "cover")
-    @EnvironmentObject var modelData: ModelData
-    
+    //@EnvironmentObject var modelData: ModelData
+    @State private var modelData = ModelData()
     var body: some View {
         NavigationView {
             List {

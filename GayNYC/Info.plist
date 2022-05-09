@@ -15,10 +15,7 @@
 	</array>
 	<key>MKDirectionsApplicationSupportedModes</key>
 	<array>
-		<string>MKDirectionsModeBike</string>
 		<string>MKDirectionsModePedestrian</string>
-		<string>MKDirectionsModeRideShare</string>
-		<string>MKDirectionsModeSubway</string>
 	</array>
 </dict>
 </plist>

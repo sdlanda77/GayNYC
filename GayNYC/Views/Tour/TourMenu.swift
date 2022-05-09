@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct TourMenu: View {
-    @EnvironmentObject var modelData: ModelData
-    
+    //@EnvironmentObject var modelData: ModelData
+    @State private var modelData = ModelData()
     var body: some View {
         NavigationView {
             List {
@@ -19,7 +19,6 @@ struct TourMenu: View {
                     .frame(height: 240)
                     .clipped()
                     .listRowInsets(EdgeInsets())
-
                 NavigationLink {
                     TourNav(landmark: modelData.landmarks[0])
                 } label: {
