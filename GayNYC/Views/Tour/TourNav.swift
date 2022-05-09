@@ -35,10 +35,18 @@ struct TourNav: View {
         VStack {
             MapView(coordinate: landmark.locationCoordinates, place: Place(name: landmark.name, latitude: landmark.locationCoordinates.latitude, longitude: landmark.locationCoordinates.longitude), mapType: .satellite)
                 .ignoresSafeArea(edges: .vertical)
+                .onAppear{
+                    playSound()
+                }
+                .onDisappear{
+                    player?.stop()
+                }
+                
 
             VStack {
                 Text("Proceed to " + landmark.name)
                     .font(.title)
+                    .padding(.bottom, -15.0)
                     
                     
                 NavigationLink {
@@ -49,13 +57,16 @@ struct TourNav: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.blue)
                         .padding(.all)
+                        
                         //.border(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
                         //.frame(maxWidth: .infinity, alignment: .center)
                         //.offset(y: -15)
                 }
-                Button("Play audio"){
+                
+                Button("Replay audio"){
                     playSound()
                 }
+                .padding(.top, -10.0)
             }
         }
         
@@ -81,7 +92,12 @@ struct TourNav: View {
             guard let audioPlayer = player else {
                 return
             }
-            audioPlayer.play()
+            if(!audioPlayer.isPlaying){
+                audioPlayer.play()
+            }else{
+                audioPlayer.stop()
+            }
+            
         }
         catch{
             print("something went wrong")
